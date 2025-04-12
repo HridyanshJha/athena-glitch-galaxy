@@ -7,7 +7,7 @@ const teamData = {
   mentors: [
     {
       id: 1,
-      name: "Prof. Ananya Sharma",
+      name: "Prof. Suman Yadav",
       designation: "Faculty Advisor",
       bio: "Associate Professor with 10+ years of experience in game development and computer science education.",
       linkedin: "https://linkedin.com/in/ananya-sharma",
@@ -17,39 +17,48 @@ const teamData = {
   leadership: [
     {
       id: 1,
-      name: "Rahul Verma",
+      name: "Kshitiz Gaur",
       role: "President",
       bio: "Computer Science senior with a passion for game development and competitive gaming.",
-      linkedin: "https://linkedin.com/in/rahul-verma",
-      instagram: "https://instagram.com/rahul.verma",
-      image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&q=80&w=1974"
+      linkedin: "https://www.linkedin.com/in/kshitiz-gaur-3b03ba241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      instagram: "https://www.instagram.com/_kshitiz_13?igsh=a29sMG56cjVtZ2tj",
+      image: "/src/assets/images/Kshitiz gaur.jpg"
     },
     {
       id: 2,
-      name: "Priya Patel",
+      name: "Abhisar Chaudhary",
       role: "Vice President",
       bio: "Game design enthusiast with experience in organizing large-scale gaming events.",
-      linkedin: "https://linkedin.com/in/priya-patel",
-      instagram: "https://instagram.com/priya.patel",
-      image: "https://images.unsplash.com/photo-1619895862022-09114b41f16f?auto=format&fit=crop&q=80&w=2070"
+      linkedin: "https://www.linkedin.com/in/abhisar-choudhary-1b6917316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      instagram: "#https://www.instagram.com/abb.ysar?igsh=aDVuNXEzZGpkaGpz",
+      image: "/src/assets/images/Abhisar.png"
     },
     {
       id: 3,
-      name: "Aditya Kumar",
-      role: "Treasurer",
-      bio: "Finance student with a knack for resource management and budgeting for events.",
-      linkedin: "https://linkedin.com/in/aditya-kumar",
-      instagram: "https://instagram.com/aditya.kumar",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=1974"
+      name: "Aryan Baghel",
+      role: "General Secratary",
+      bio: "Organized and efficient communication specialist with a love for esports.",
+      linkedin: "https://www.linkedin.com/in/aryan-baghel-718816285",
+      instagram: "https://www.instagram.com/aryan_baghel97?igsh=MWIycWI5dnoyZW5lOA==",
+      image: "/src/assets/images/Aryan Baghel .jpg"
     },
     {
       id: 4,
-      name: "Kavya Singh",
-      role: "General Secretary",
-      bio: "Organized and efficient communication specialist with a love for esports.",
-      linkedin: "https://linkedin.com/in/kavya-singh",
-      instagram: "https://instagram.com/kavya.singh",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=1976"
+      name: "Hridyansh Jha",
+      role: "Treasurer",
+      bio: "Finance student with a knack for resource management and budgeting for events.",
+      linkedin: "https://www.linkedin.com/in/hridyansh-j-b8a165260",
+      instagram: "#https://www.instagram.com/hridyansh.jha?igsh=dG5idmEwNnh1YW5w",
+      image: "/src/assets/images/MYPIC.jpg"
+    },
+    {
+      id: 4,
+      name: "Nipun Vasistha",
+      role: "Joint Secretary",
+      bio: "Supporting events, sponsorships, and content teams to maintain efficiency. Keeping the gaming community engaged and active.",
+      linkedin: "https://www.linkedin.com/in/hridyansh-j-b8a165260",
+      instagram: "#https://www.instagram.com/hridyansh.jha?igsh=dG5idmEwNnh1YW5w",
+      image: "/src/assets/images/Nipun.jpg"
     }
   ],
   departments: [
@@ -59,19 +68,19 @@ const teamData = {
       heads: [
         {
           id: 1,
-          name: "Arjun Reddy",
-          role: "Technical Head",
+          name: "Aditya Gautam",
+          role: "Technical & Game Development Head",
           description: "Oversees all technical aspects of events and competitions",
-          linkedin: "https://linkedin.com/in/arjun-reddy",
-          image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Aditya.jpg"
         },
         {
           id: 2,
-          name: "Sneha Rao",
+          name: "Diptanshu",
           role: "Technical Head",
           description: "Manages technology infrastructure and gaming servers",
-          linkedin: "https://linkedin.com/in/sneha-rao",
-          image: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=1974"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/diptanshu EM head.jpg"
         }
       ],
       executives: ["Vikram Shah", "Nisha Gupta", "Rohan Das"]
@@ -82,19 +91,19 @@ const teamData = {
       heads: [
         {
           id: 1,
-          name: "Sara Mehta",
-          role: "Design Lead",
+          name: "Shashank Jha",
+          role: "Design Head",
           description: "Manages branding, graphics and creative direction",
-          linkedin: "https://linkedin.com/in/sara-mehta",
-          image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/SHASHANK Jha design head.jpg"
         },
         {
           id: 2,
-          name: "Dev Kapoor",
+          name: "Aadarsh Chaudhary",
           role: "Design Lead",
           description: "Specializes in UI/UX for gaming interfaces and posters",
-          linkedin: "https://linkedin.com/in/dev-kapoor",
-          image: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Aadarsh Chaudhary Head.jpg"
         }
       ],
       executives: ["Jay Patel", "Sanjana Roy", "Karan Soni"]
@@ -105,19 +114,19 @@ const teamData = {
       heads: [
         {
           id: 1,
-          name: "Vivek Joshi",
-          role: "Event Coordinator",
+          name: "Anirudh Goel",
+          role: "Event Management Head",
           description: "Plans and executes all gaming events and workshops",
-          linkedin: "https://linkedin.com/in/vivek-joshi",
-          image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Anirudh.png"
         },
         {
           id: 2,
-          name: "Anita Reddy",
-          role: "Event Coordinator",
+          name: "Sahil Sharma",
+          role: "Event Management Head",
           description: "Manages logistics and participant registration",
-          linkedin: "https://linkedin.com/in/anita-reddy",
-          image: "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&q=80&w=2071"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Sahil Sharma .jpg"
         }
       ],
       executives: ["Meera Kapoor", "Diya Sharma", "Rajat Verma"]
@@ -128,19 +137,19 @@ const teamData = {
       heads: [
         {
           id: 1,
-          name: "Neha Khanna",
-          role: "Sponsorship Head",
+          name: "Khushi Khanna",
+          role: "Sponsorship & Outreach Head",
           description: "Manages partnerships and sponsorships for events",
-          linkedin: "https://linkedin.com/in/neha-khanna",
-          image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Khushi khanna.png"
         },
         {
           id: 2,
-          name: "Raj Malhotra",
-          role: "Sponsorship Head",
+          name: "Kartik Chhabara",
+          role: "Sponsorship & Outreach Head",
           description: "Negotiates deals and handles sponsor relations",
-          linkedin: "https://linkedin.com/in/raj-malhotra",
-          image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=1974"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Kartik.png"
         }
       ],
       executives: ["Amit Singh", "Riya Desai"]
@@ -151,22 +160,46 @@ const teamData = {
       heads: [
         {
           id: 1,
-          name: "Kunal Mehra",
-          role: "Video Editor Head",
+          name: "Somya Sharma",
+          role: "Social Media Head",
           description: "Creates and directs all video content for social media",
-          linkedin: "https://linkedin.com/in/kunal-mehra",
-          image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Somya SM head.jpg"
         },
         {
           id: 2,
-          name: "Ritika Sharma",
+          name: "Krish Mutreja",
           role: "Social Media Head",
           description: "Manages social media presence and content strategy",
-          linkedin: "https://linkedin.com/in/ritika-sharma",
-          image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&q=80&w=2070"
+          linkedin: "#",
+          image: "/src/assets/images/Heads/sm head .jpg"
         }
       ],
       executives: ["Aishwarya Rao", "Tarun Malhotra"]
+    },
+    
+    {
+      id: 6,
+      name: "Content",
+      heads: [
+        {
+          id: 1,
+          name: "Nitya Mahajan",
+          role: "Content Head",
+          description: "Writes articles and manages blog content for the community",
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Nitya Mahajan.PNG"
+        },
+        {
+          id: 2,
+          name: "Aditya Sharma",
+          role: "Content Head",
+          description: "Creates engaging content for newsletters and social media",
+          linkedin: "#",
+          image: "/src/assets/images/Heads/Aditya sharma.jpg"
+        }
+      ],
+      executives: ["Nikita Singh", "Rahul Yadav"]
     }
   ]
 };
