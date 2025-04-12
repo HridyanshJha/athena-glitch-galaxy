@@ -1,5 +1,6 @@
 
 import { Instagram, Linkedin, Mail, MessageSquare } from "lucide-react";
+import Logo from "./Logo";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,13 +9,16 @@ const Footer = () => {
     <footer className="bg-gaming-dark py-10 border-t border-gaming-gray">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-6 md:mb-0">
-            <h3 className="font-audiowide text-xl text-white mb-2">
-              ATHENA<span className="text-neon-green">.</span>
-            </h3>
-            <p className="text-sm text-gray-400">
-              Official Technical Gaming Society of BVCE
-            </p>
+          <div className="mb-6 md:mb-0 flex items-center space-x-3">
+            <Logo size="sm" />
+            <div>
+              <h3 className="font-audiowide text-xl text-white mb-2">
+                ATHENA<span className="text-neon-green">.</span>
+              </h3>
+              <p className="text-sm text-gray-400">
+                Official Technical Gaming Society of BVCE
+              </p>
+            </div>
           </div>
           
           <div className="flex space-x-6 mb-6 md:mb-0">

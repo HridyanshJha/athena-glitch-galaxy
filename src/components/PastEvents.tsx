@@ -31,6 +31,51 @@ const pastEvents = [
     description: "A hands-on workshop teaching the fundamentals of game development using Unity, led by industry professionals.",
     gallery: ["https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&q=80&w=2070", "https://images.unsplash.com/photo-1548086396-2075d8322ebe?auto=format&fit=crop&q=80&w=1254"],
     externalLink: "https://unity.com/"
+  },
+  {
+    id: 4,
+    title: "Minecraft Build Challenge",
+    date: "October 5, 2022",
+    image: "https://images.unsplash.com/photo-1607853202273-797f1c22a38e?auto=format&fit=crop&q=80&w=2070",
+    description: "A creative building competition where participants showcased their architectural and artistic skills within Minecraft.",
+    gallery: ["https://images.unsplash.com/photo-1627856013091-fed6e4e30025?auto=format&fit=crop&q=80&w=2070", "https://images.unsplash.com/photo-1639252794098-06f8cb064541?auto=format&fit=crop&q=80&w=2070"],
+    externalLink: "https://www.minecraft.net/"
+  },
+  {
+    id: 5,
+    title: "eSports Boot Camp",
+    date: "September 18, 2022",
+    image: "https://images.unsplash.com/photo-1542751110-97427bbecf20?auto=format&fit=crop&q=80&w=1776",
+    description: "An intensive training program for aspiring eSports athletes, featuring coaching from professional players.",
+    gallery: ["https://images.unsplash.com/photo-1560253023-3ec5085aaab8?auto=format&fit=crop&q=80&w=2070", "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&q=80&w=2057"],
+    externalLink: "https://www.esportsbootcamp.com/"
+  },
+  {
+    id: 6,
+    title: "Game Art Workshop",
+    date: "August 12, 2022",
+    image: "https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&q=80&w=2064",
+    description: "A workshop focused on the artistic aspects of game development, including character design and environment creation.",
+    gallery: ["https://images.unsplash.com/photo-1536164261511-3a17e671d380?auto=format&fit=crop&q=80&w=2070", "https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&q=80&w=2064"],
+    externalLink: "https://www.artstation.com/"
+  },
+  {
+    id: 7,
+    title: "Gaming Industry Career Fair",
+    date: "July 25, 2022",
+    image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=2070",
+    description: "A networking event connecting students with professionals and companies from the gaming industry.",
+    gallery: ["https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&q=80&w=2069", "https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?auto=format&fit=crop&q=80&w=2071"],
+    externalLink: "https://www.gamasutra.com/view/news/353984/GDC_Career_Fair_returns_for_GDC_Summer.php"
+  },
+  {
+    id: 8,
+    title: "Retro Gaming Night",
+    date: "June 8, 2022",
+    image: "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=2070",
+    description: "A nostalgic evening celebrating classic games from the 80s and 90s with tournaments and free play.",
+    gallery: ["https://images.unsplash.com/photo-1579309401389-a2476dddf3d4?auto=format&fit=crop&q=80&w=2070", "https://images.unsplash.com/photo-1586182987320-4f376d39d787?auto=format&fit=crop&q=80&w=2068"],
+    externalLink: "https://retrogames.cc/"
   }
 ];
 
@@ -110,3 +155,4 @@ const PastEvents = () => {
 };
 
 export default PastEvents;
+

@@ -59,6 +59,7 @@ const teamData = {
       role: "Technical Head",
       description: "Oversees all technical aspects of events and competitions",
       linkedin: "https://linkedin.com/in/arjun-reddy",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?auto=format&fit=crop&q=80&w=2070",
       executives: ["Vikram Shah", "Nisha Gupta", "Rohan Das"]
     },
     {
@@ -67,6 +68,7 @@ const teamData = {
       role: "Design Lead",
       description: "Manages branding, graphics and creative direction",
       linkedin: "https://linkedin.com/in/sara-mehta",
+      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=2070",
       executives: ["Jay Patel", "Sanjana Roy", "Karan Soni"]
     },
     {
@@ -75,6 +77,7 @@ const teamData = {
       role: "Event Coordinator",
       description: "Plans and executes all gaming events and workshops",
       linkedin: "https://linkedin.com/in/vivek-joshi",
+      image: "https://images.unsplash.com/photo-1581092795360-fd1ca04f0952?auto=format&fit=crop&q=80&w=2070",
       executives: ["Meera Kapoor", "Diya Sharma", "Rajat Verma"]
     },
     {
@@ -83,6 +86,7 @@ const teamData = {
       role: "Sponsorship Head",
       description: "Manages partnerships and sponsorships for events",
       linkedin: "https://linkedin.com/in/neha-khanna",
+      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=2070",
       executives: ["Amit Singh", "Riya Desai"]
     },
     {
@@ -91,6 +95,7 @@ const teamData = {
       role: "Video Editor Head",
       description: "Creates and directs all video content for social media",
       linkedin: "https://linkedin.com/in/kunal-mehra",
+      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=2070",
       executives: ["Aishwarya Rao", "Tarun Malhotra"]
     }
   ]
@@ -108,7 +113,7 @@ const TeamSection = () => {
           {teamData.mentors.map((mentor) => (
             <div key={mentor.id} className="gaming-card w-full md:w-96 mx-auto">
               <div className="flex flex-col items-center">
-                <div className="w-32 h-32 rounded-full overflow-hidden mb-4 border-2 border-neon-green shadow-lg">
+                <div className="w-40 h-40 rounded-full overflow-hidden mb-4 border-2 border-neon-green shadow-lg">
                   <img 
                     src={mentor.image} 
                     alt={mentor.name} 
@@ -144,7 +149,7 @@ const TeamSection = () => {
               key={leader.id} 
               className="gaming-card text-center hover:transform hover:scale-[1.03] transition-all duration-300"
             >
-              <div className="w-24 h-24 rounded-full overflow-hidden mx-auto mb-4 border-2 border-neon-green shadow-lg">
+              <div className="w-32 h-32 rounded-full overflow-hidden mx-auto mb-4 border-2 border-neon-green shadow-lg">
                 <img 
                   src={leader.image} 
                   alt={leader.name} 
@@ -188,8 +193,20 @@ const TeamSection = () => {
               key={lead.id} 
               className="gaming-card hover:transform hover:scale-[1.02]"
             >
-              <h4 className="font-orbitron text-lg text-white mb-1">{lead.name}</h4>
-              <p className="text-neon-green text-sm mb-2">{lead.role}</p>
+              <div className="flex items-center mb-4">
+                <div className="w-16 h-16 rounded-full overflow-hidden mr-4 border-2 border-neon-green shadow-lg">
+                  <img 
+                    src={lead.image} 
+                    alt={lead.name} 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div>
+                  <h4 className="font-orbitron text-lg text-white mb-1">{lead.name}</h4>
+                  <p className="text-neon-green text-sm">{lead.role}</p>
+                </div>
+              </div>
+              
               <p className="text-gray-300 text-sm mb-4">{lead.description}</p>
               
               <div className="flex justify-between items-center mb-4">
@@ -232,3 +249,4 @@ const TeamSection = () => {
 };
 
 export default TeamSection;
+

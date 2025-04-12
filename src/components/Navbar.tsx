@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -35,9 +36,12 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link 
           to="/" 
-          className="font-audiowide text-xl md:text-2xl text-white hover:text-neon-green transition-colors duration-300"
+          className="flex items-center space-x-2 group"
         >
-          ATHENA<span className="text-neon-green">.</span>
+          <Logo size="sm" className="transition-all duration-300 group-hover:scale-110" />
+          <span className="font-audiowide text-xl md:text-2xl text-white group-hover:text-neon-green transition-colors duration-300">
+            ATHENA<span className="text-neon-green">.</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}
