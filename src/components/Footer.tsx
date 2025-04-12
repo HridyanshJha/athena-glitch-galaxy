@@ -16,7 +16,7 @@ const Footer = () => {
                 ATHENA<span className="text-neon-green">.</span>
               </h3>
               <p className="text-sm text-gray-400">
-                Official Technical Gaming Society of BVCE
+                Official Technical Gaming Society of BVCOE
               </p>
             </div>
           </div>
@@ -30,7 +30,7 @@ const Footer = () => {
               <Mail size={20} />
             </a>
             <a 
-              href="https://instagram.com/athena_bvce" 
+              href="https://www.instagram.com/athena_bvcoe?igsh=b21id29iMnZudmc2" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-neon-green transition-colors"
@@ -39,7 +39,7 @@ const Footer = () => {
               <Instagram size={20} />
             </a>
             <a 
-              href="https://linkedin.com/company/athena-bvce" 
+              href="https://www.linkedin.com/in/athena-bvcoe-a1603a2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-gray-400 hover:text-neon-green transition-colors"

@@ -9,9 +9,9 @@ const teamData = {
       id: 1,
       name: "Prof. Suman Yadav",
       designation: "Faculty Advisor",
-      bio: "Associate Professor with 10+ years of experience in game development and computer science education.",
-      linkedin: "https://linkedin.com/in/ananya-sharma",
-      image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=1061"
+      bio: "Associate Professor with 10+ years of experience in game development and Electronics education.",
+      linkedin: "#",
+      image: "/src/assets/suman_maam.jpg"
     }
   ],
   leadership: [

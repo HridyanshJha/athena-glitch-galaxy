@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import athenaLogo from '../assets/athena-logo.png'; // We'll create a placeholder logo
 
 const Hero = () => {
@@ -32,7 +33,7 @@ const Hero = () => {
             <img 
               src={athenaLogo} 
               alt="Athena Gaming Society Logo" 
-              className="h-40 md:h-56 animate-pulse-glow rounded-full"
+              className="h-56 md:h-56 animate-pulse-glow rounded-full"
             />
           </div>
           
@@ -47,7 +48,7 @@ const Hero = () => {
           <h2 className={`font-orbitron text-xl md:text-2xl text-gray-300 mb-6 transition-all duration-1000 delay-500 ${
             isLoaded ? 'opacity-100' : 'opacity-0 translate-y-4'
           }`}>
-            Gaming Society of BVCE
+            Gaming Society of BVCOE
           </h2>
           
           {/* Tagline */}
@@ -62,7 +63,7 @@ const Hero = () => {
             isLoaded ? 'opacity-100' : 'opacity-0 translate-y-4'
           }`}>
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Athena is the official technical gaming society of Bharat Vidya College of Engineering,
+              Athena is the official technical gaming society of Bhartiya Vidyapeeth College of Engineering,
               dedicated to nurturing gaming talent and providing a platform for students
               to showcase their skills in competitive gaming environments.
             </p>
@@ -70,15 +71,21 @@ const Hero = () => {
               Through tournaments, workshops, and collaborative events, we're building
               a community of passionate gamers ready to make their mark in the gaming world.
             </p>
+            <p className="text-gray-300 leading-relaxed">
+            To become the leading collegiate gaming society in India, creating opportunities for students to excel in esports while developing valuable skills in leadership, teamwork, and event management.
+            </p>
           </div>
           
           {/* CTA Button */}
           <div className={`transition-all duration-1000 delay-1100 ${
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
-            <button className="gaming-button animate-pulse-glow">
-              Explore Events
-            </button>
+            <Link to="/events">
+  <button className="gaming-button animate-pulse-glow">
+    Explore Events
+  </button>
+</Link>
+
           </div>
         </div>
       </div>
