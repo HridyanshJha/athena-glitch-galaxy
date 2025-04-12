@@ -11,7 +11,7 @@ const teamData = {
       designation: "Faculty Advisor",
       bio: "Associate Professor with 10+ years of experience in game development and Electronics education.",
       linkedin: "#",
-      image: "/src/assets/suman_maam.jpg"
+      image: "/assets/suman_maam.jpg"
     }
   ],
   leadership: [
@@ -22,7 +22,7 @@ const teamData = {
       bio: "Computer Science senior with a passion for game development and competitive gaming.",
       linkedin: "https://www.linkedin.com/in/kshitiz-gaur-3b03ba241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       instagram: "https://www.instagram.com/_kshitiz_13?igsh=a29sMG56cjVtZ2tj",
-      image: "/src/assets/images/Kshitiz gaur.jpg"
+      image: "/assets/images/Kshitiz gaur.jpg"
     },
     {
       id: 2,
@@ -31,7 +31,7 @@ const teamData = {
       bio: "Game design enthusiast with experience in organizing large-scale gaming events.",
       linkedin: "https://www.linkedin.com/in/abhisar-choudhary-1b6917316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       instagram: "#https://www.instagram.com/abb.ysar?igsh=aDVuNXEzZGpkaGpz",
-      image: "/src/assets/images/Abhisar.png"
+      image: "/assets/images/Abhisar.png"
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const teamData = {
       bio: "Organized and efficient communication specialist with a love for esports.",
       linkedin: "https://www.linkedin.com/in/aryan-baghel-718816285",
       instagram: "https://www.instagram.com/aryan_baghel97?igsh=MWIycWI5dnoyZW5lOA==",
-      image: "/src/assets/images/Aryan Baghel .jpg"
+      image: "/assets/images/Aryan Baghel .jpg"
     },
     {
       id: 4,
@@ -49,7 +49,7 @@ const teamData = {
       bio: "Finance student with a knack for resource management and budgeting for events.",
       linkedin: "https://www.linkedin.com/in/hridyansh-j-b8a165260",
       instagram: "#https://www.instagram.com/hridyansh.jha?igsh=dG5idmEwNnh1YW5w",
-      image: "/src/assets/images/MYPIC.jpg"
+      image: "/assets/images/MYPIC.jpg"
     },
     {
       id: 4,
@@ -58,7 +58,7 @@ const teamData = {
       bio: "Supporting events, sponsorships, and content teams to maintain efficiency. Keeping the gaming community engaged and active.",
       linkedin: "https://www.linkedin.com/in/hridyansh-j-b8a165260",
       instagram: "#https://www.instagram.com/hridyansh.jha?igsh=dG5idmEwNnh1YW5w",
-      image: "/src/assets/images/Nipun.jpg"
+      image: "/assets/images/Nipun.jpg"
     }
   ],
   departments: [
@@ -72,7 +72,7 @@ const teamData = {
           role: "Technical & Game Development Head",
           description: "Oversees all technical aspects of events and competitions",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Aditya.jpg"
+          image: "/assets/images/Heads/Aditya.jpg"
         },
         {
           id: 2,
@@ -80,7 +80,7 @@ const teamData = {
           role: "Technical Head",
           description: "Manages technology infrastructure and gaming servers",
           linkedin: "#",
-          image: "/src/assets/images/Heads/diptanshu EM head.jpg"
+          image: "/assets/images/Heads/diptanshu EM head.jpg"
         }
       ],
       executives: ["Vikram Shah", "Nisha Gupta", "Rohan Das"]
@@ -95,7 +95,7 @@ const teamData = {
           role: "Design Head",
           description: "Manages branding, graphics and creative direction",
           linkedin: "#",
-          image: "/src/assets/images/Heads/SHASHANK Jha design head.jpg"
+          image: "/assets/images/Heads/SHASHANK Jha design head.jpg"
         },
         {
           id: 2,
@@ -103,7 +103,7 @@ const teamData = {
           role: "Design Lead",
           description: "Specializes in UI/UX for gaming interfaces and posters",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Aadarsh Chaudhary Head.jpg"
+          image: "/assets/images/Heads/Aadarsh Chaudhary Head.jpg"
         }
       ],
       executives: ["Jay Patel", "Sanjana Roy", "Karan Soni"]
@@ -118,7 +118,7 @@ const teamData = {
           role: "Event Management Head",
           description: "Plans and executes all gaming events and workshops",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Anirudh.png"
+          image: "/assets/images/Heads/Anirudh.png"
         },
         {
           id: 2,
@@ -126,7 +126,7 @@ const teamData = {
           role: "Event Management Head",
           description: "Manages logistics and participant registration",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Sahil Sharma .jpg"
+          image: "/assets/images/Heads/Sahil Sharma .jpg"
         }
       ],
       executives: ["Meera Kapoor", "Diya Sharma", "Rajat Verma"]
@@ -141,7 +141,7 @@ const teamData = {
           role: "Sponsorship & Outreach Head",
           description: "Manages partnerships and sponsorships for events",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Khushi khanna.png"
+          image: "/assets/images/Heads/Khushi khanna.png"
         },
         {
           id: 2,
@@ -149,7 +149,7 @@ const teamData = {
           role: "Sponsorship & Outreach Head",
           description: "Negotiates deals and handles sponsor relations",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Kartik.png"
+          image: "/assets/images/Heads/Kartik.png"
         }
       ],
       executives: ["Amit Singh", "Riya Desai"]
@@ -164,7 +164,7 @@ const teamData = {
           role: "Social Media Head",
           description: "Creates and directs all video content for social media",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Somya SM head.jpg"
+          image: "/assets/images/Heads/Somya SM head.jpg"
         },
         {
           id: 2,
@@ -172,7 +172,7 @@ const teamData = {
           role: "Social Media Head",
           description: "Manages social media presence and content strategy",
           linkedin: "#",
-          image: "/src/assets/images/Heads/sm head .jpg"
+          image: "/assets/images/Heads/sm head .jpg"
         }
       ],
       executives: ["Aishwarya Rao", "Tarun Malhotra"]
@@ -188,7 +188,7 @@ const teamData = {
           role: "Content Head",
           description: "Writes articles and manages blog content for the community",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Nitya Mahajan.PNG"
+          image: "/assets/images/Heads/Nitya Mahajan.PNG"
         },
         {
           id: 2,
@@ -196,7 +196,7 @@ const teamData = {
           role: "Content Head",
           description: "Creates engaging content for newsletters and social media",
           linkedin: "#",
-          image: "/src/assets/images/Heads/Aditya sharma.jpg"
+          image: "/assets/images/Heads/Aditya sharma.jpg"
         }
       ],
       executives: ["Nikita Singh", "Rahul Yadav"]
