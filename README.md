@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: 
+**URL**: [athena-bvcoe](https://athena-tech-bvcoe.netlify.app/)
 
 ## How can I edit this code?
 
@@ -54,11 +54,6 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/175a8d17-fc5d-4845-b151-e946f9f377cf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
 
 Yes it is!
 
