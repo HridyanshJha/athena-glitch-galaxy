@@ -1,6 +1,6 @@
-# Welcome to your Lovable project
+# Welcome to TEAM ATHENA project
 
-## Project info
+## Project info : ATHENA is Technical and gaming society of Bharatiya Vidyapeeth College of engineering. Constructed a fully functional website for it. 
 
 **URL**: [athena-bvcoe](https://athena-tech-bvcoe.netlify.app/)
 
