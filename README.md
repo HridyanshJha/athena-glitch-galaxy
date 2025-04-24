@@ -1,8 +1,8 @@
-# Welcome to your Lovable project
+# Welcome to TEAM ATHENA project
 
-## Project info
+## Project info : ATHENA is Technical and gaming society of Bharatiya Vidyapeeth College of engineering. Constructed a fully functional website for it. 
 
-**URL**: 
+**URL**: [athena-bvcoe](https://athena-tech-bvcoe.netlify.app/)
 
 ## How can I edit this code?
 
@@ -54,14 +54,6 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/175a8d17-fc5d-4845-b151-e946f9f377cf) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
 
 Yes it is!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
