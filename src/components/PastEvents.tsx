@@ -27,7 +27,7 @@ const pastEvents = [
     id: 3,
     title: "Game Dev Workshop",
     date: "November 10, 2023",
-    image: "/assets/images/Events/event7.jpg",
+    image: "/assets/images/Events/Event7.jpg",
     description: "A hands-on workshop teaching the fundamentals of game development using Unity, led by industry professionals.",
     gallery: ["https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&q=80&w=2070", "https://images.unsplash.com/photo-1548086396-2075d8322ebe?auto=format&fit=crop&q=80&w=1254"],
     externalLink: "https://unity.com/"
